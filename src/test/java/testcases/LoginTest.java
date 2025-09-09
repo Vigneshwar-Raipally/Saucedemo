@@ -45,7 +45,6 @@ public class LoginTest extends BaseTest {
 		}
 	}
 
-	/*
 	// 2. Cross-browser test
 	@Test(priority = 5)
 	public void crossBrowserLoginTest() {
@@ -75,7 +74,7 @@ public class LoginTest extends BaseTest {
 			captureFailure(e, "crossBrowserLogin");
 		}
 	}
-*/
+
 	// Helper method for failures
 	private void captureFailure(Exception e, String step) {
 		test.fail("Test failed: " + e.getMessage());
