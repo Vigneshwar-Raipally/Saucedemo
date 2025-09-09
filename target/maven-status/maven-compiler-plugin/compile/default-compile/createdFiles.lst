@@ -1,0 +1,10 @@
+base\BaseTest.class
+pages\ProductsPage.class
+pages\LoginPage.class
+utils\DriverFactory.class
+com\capstone\saucedemo\App.class
+pages\CartPage.class
+reporting\ExtentReportManager.class
+pages\CheckoutPage.class
+utils\ConfigReader.class
+utils\ScreenshotUtil.class

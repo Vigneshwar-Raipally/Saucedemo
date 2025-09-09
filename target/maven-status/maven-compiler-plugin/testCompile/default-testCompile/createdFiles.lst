@@ -1,0 +1,6 @@
+testcases\LoginTest.class
+stepDefinitions\LoginSteps.class
+testcases\CheckoutTest.class
+testcases\CartTest.class
+runners\TestRunner.class
+testcases\ProductsTest.class
