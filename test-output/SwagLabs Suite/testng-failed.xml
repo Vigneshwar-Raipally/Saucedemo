@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SwagLabs Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Login and Cart Tests(failed)">
+    <classes>
+      <class name="testcases.ProductsTest">
+        <methods>
+          <include name="testSortByNameAToZ"/>
+          <include name="afterTestMethod"/>
+          <include name="testSortByPriceLowHigh"/>
+          <include name="testSortByNameZToA"/>
+          <include name="tearDown"/>
+          <include name="testSidebarNavigation"/>
+          <include name="beforeSuite"/>
+          <include name="testSortByPriceHighLow"/>
+          <include name="setUp"/>
+          <include name="beforeTestMethod"/>
+          <include name="testUIResponsiveness"/>
+        </methods>
+      </class> <!-- testcases.ProductsTest -->
+    </classes>
+  </test> <!-- Login and Cart Tests(failed) -->
+</suite> <!-- Failed suite [SwagLabs Suite] -->
