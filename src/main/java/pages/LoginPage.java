@@ -9,8 +9,10 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
 
 // Selenium code for login page.
+
 public class LoginPage {
 
+	private WebDriver driver1;
 	private WebDriver driver;
 
 	// Locators
